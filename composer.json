@@ -1,0 +1,19 @@
+{
+    "name": "lustihoods/captcha",
+    "description": "this is captcha test",
+    "type": "library",
+    "require": {
+        "ext-gd": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lustihoods",
+            "email": "15201363186@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+	"psr-4":{"lustihoods\\captcha\\":"src"}
+    }
+}
